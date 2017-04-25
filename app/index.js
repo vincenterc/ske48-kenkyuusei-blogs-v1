@@ -31,5 +31,5 @@ app.listen(port, (err) => {
 })
 
 // Update blogs of ske48 kenkyuusei
-const interval = 60 * 60 // seconds
+const interval = 10 * 60 // seconds
 updateBlogsAtIntervals(mongodbUri, interval)
