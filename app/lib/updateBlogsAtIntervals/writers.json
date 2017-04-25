@@ -1,0 +1,136 @@
+{
+  "ken7": [
+    {
+      "writer":"aikawa_honoka",
+      "name": "相川暖花",
+      "generation": 7,
+      "filter": ["ほのの"]
+    },
+    {
+      "writer":"kataoka_narumi",
+      "name": "片岡成美",
+      "generation": 7,
+      "filter": ["片岡"]
+    },
+    {
+      "writer":"wada_aina",
+      "name": "和田愛菜",
+      "generation": 7,
+      "filter": ["あいな"]
+    }
+  ],
+  "ken81": [
+    {
+      "writer":"atsumi_ayaha",
+      "name": "渥美彩羽",
+      "generation": 8,
+      "filter": ["あや"]
+    },
+    {
+      "writer":"ishikawa_saki",
+      "name": "石川咲姫",
+      "generation": 8,
+      "filter": ["さきりん"]
+    },
+    {
+      "writer":"ishiguro_yuzuki",
+      "name": "石黒友月",
+      "generation": 8,
+      "filter": ["ゆづき"]
+    },
+    {
+      "writer":"inoue_ruka",
+      "name": "井上瑠夏",
+      "generation": 8,
+      "filter": ["るか"]
+    },
+    {
+      "writer":"oshiba_rinka",
+      "name": "大芝りんか",
+      "generation": 8,
+      "filter": ["りんかちゃん"]
+    },
+    {
+      "writer":"okada_miku",
+      "name": "岡田美紅",
+      "generation": 8,
+      "filter": ["みぃぽぽ"]
+    }
+  ],
+  "ken82": [
+    {
+      "writer":"kitagawa_yoshino",
+      "name": "北川愛乃",
+      "generation": 8,
+      "filter": ["よこにゃん", "北川愛乃"]
+    },
+    {
+      "writer":"kawai_anna",
+      "name": "川合杏奈",
+      "generation": 8,
+      "filter": ["あんたん", "杏奈"]
+    },
+    {
+      "writer":"kurashima_ami",
+      "name": "倉島杏実",
+      "generation": 8,
+      "filter": ["あみちゃん"]
+    },
+    {
+      "writer":"sakamoto_marin",
+      "name": "坂本真凛",
+      "generation": 8,
+      "filter": ["まりんぶろぐ"]
+    },
+    {
+      "writer":"sato_kaho",
+      "name": "佐藤佳穂",
+      "generation": 8,
+      "filter": ["佳穂", "かほ", "今日は"]
+    },
+    {
+      "writer":"yahagi_yukina",
+      "name": "矢作有紀奈",
+      "generation": 8,
+      "filter": ["ゆきな", "有紀奈"]
+    }
+  ],
+  "ken83": [
+    {
+      "writer":"shirayuki_kohaku",
+      "name": "白雪希明",
+      "generation": 8,
+      "filter": ["こはちゃん"]
+    },
+    {
+      "writer":"nakamura_izumi",
+      "name": "仲村和泉",
+      "generation": 8,
+      "filter": ["いずりん"]
+    },
+    {
+      "writer":"nonogaki_miki",
+      "name": "野々垣美希",
+      "generation": 8,
+      "filter": ["ののがきみき"]
+    },
+    {
+      "writer":"nomura_miyo",
+      "name": "野村実代",
+      "generation": 8,
+      "filter": ["みよまる"]
+    },
+    {
+      "writer":"morihira_riko",
+      "name": "森平莉子",
+      "generation": 8,
+      "filter": ["りこりん"]
+    },
+    {
+      "writer":"fukai_negai",
+      "name": "深井ねがい",
+      "generation": 8,
+      "filter": ["ねがい"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+/*
+ * blog-main
+ */
+.blog-memberList-content {
+ padding: 0px 30px 15px 30px;
+}
+.memberList {
+  padding-top: 10px;
+}
+.memberList-title {
+  font-size: 24px;
+  padding: 5px 10px;
+  background-color: #ffc05d;
+}
+.memberList-content {
+  font-size: 20px;
+}
+.memberList-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+.memberList-content li {
+  padding-top: 5px;
+  border-bottom: dotted 1px #555;
+}
+.member {
+  padding-left: 10px;
+}
+.member a {
+  font-size: 18px;
+  color: #e57e16;
+}
+.member a:hover {
+  text-decoration: none;
+}
+.member a span{
+  font-size: 14px;
+  color: #8d8d8d;
+}

@@ -1,0 +1,128 @@
+/*
+ * Globals
+ */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666;
+  background-image: url("http://sp.ske48.co.jp/img/ameblo_bg.jpg")
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/*
+ * header
+ */
+.header {
+  margin-bottom: 20px;
+}
+
+/*
+ * blog-logo
+ */
+.blog-logo {
+  padding-left: 0px;
+}
+.blog-logo-img {
+  background-color: #fff9ed;
+}
+.blog-logo-img img {
+  height: 144px;
+}
+
+/*
+ * blog-header and blog-description
+ */
+
+.blog-header {
+  background-color: #f8b500;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-title a {
+  color: #fff;
+}
+.blog-title a:hover {
+  text-decoration: none;
+}
+.blog-description {
+  font-size: 20px;
+}
+.blog-description a {
+  color: #666;
+  font-weight: bold;
+}
+
+
+/*
+ * blog-sidebar
+ */
+.blog-sidebar {
+  padding-left: 0px;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module-title {
+  padding: 10px 0 10px 15px;
+  background-color: #f8b500;
+}
+.sidebar-module-content {
+  padding: 10px 15px;
+  background-color: #fff9ed;
+}
+.sidebar-module-content h5 {
+  color: #e57e16;
+  font-size: 16px;
+}
+.sidebar-module-content a {
+  color: #e57e16;
+}
+.sidebar-module-content a:hover {
+  color: #f8b500;
+}
+
+/*
+ * blog-main
+ */
+.blog-main {
+ background-color: #fff9ed;
+ padding: 0px;
+}
+.blog-main-header {
+  background-color: #f8b500;
+  padding: 10px 0 10px 15px;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #f8b500;
+  margin-top: 20px;
+}

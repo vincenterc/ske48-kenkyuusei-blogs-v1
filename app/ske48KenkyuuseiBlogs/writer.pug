@@ -1,0 +1,20 @@
+extends ../layouts/layout.pug
+
+block append styles
+  link(rel='stylesheet', href='/css/writer.css')
+
+block blog-main-content
+  .blog-postList
+    .blog-postList-content
+      ul
+        each post in postList.posts
+          li
+            .blog_title
+              a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+post.id)
+                | #{post.title} 					
+                time(datetime='YYYY-MM-DD') #{post.date}
+
+  nav
+    ul
+      li
+        a(href='/ske48_kenkyuusei_blogs') Back to HOME

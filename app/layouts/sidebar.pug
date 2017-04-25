@@ -1,0 +1,15 @@
+.sidebar-module
+  .sidebar-module-title
+    h4 Member List
+  .sidebar-module-content
+    .col
+      h5 7期生
+      ul.list-unstyled
+        each writer in writers7
+          li: a(href='/ske48_kenkyuusei_blogs/'+writer.writer)= writer.jpnName
+
+    .col
+      h5 8期生
+      ul.list-unstyled
+        each writer in writers8
+          li: a(href='/ske48_kenkyuusei_blogs/'+writer.writer)= writer.jpnName

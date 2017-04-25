@@ -1,0 +1,29 @@
+extends ../layouts/layout.pug
+
+block append styles
+  link(rel='stylesheet', href='/css/blogs.css')
+
+block blog-main-content
+  .blog-menberList
+    .blog-memberList-content
+      .memberList
+        .memberList-title
+          h3 7期生
+        .memberList-content
+          ul
+            each writer in writers7
+              li
+                .member
+                  a(href='/ske48_kenkyuusei_blogs/'+writer.writer)
+                    | #{writer.jpnName} <span>#{writer.engName}</span>			
+
+      .memberList
+        .memberList-title
+          h3 8期生
+        .memberList-content
+          ul
+            each writer in writers8
+              li
+                .member
+                  a(href='/ske48_kenkyuusei_blogs/'+writer.writer)
+                    | #{writer.jpnName} <span>#{writer.engName}</span>					

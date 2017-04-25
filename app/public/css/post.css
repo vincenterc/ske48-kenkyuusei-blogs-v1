@@ -1,0 +1,50 @@
+/*
+ * blog-main
+ */
+.blog-post {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0 0 0;
+}
+.blog-post-content {
+  padding: 0 30px;
+}
+.post-content h3 {
+  color: #bc7c3c;
+}
+.post-content time {
+  color: #8d8d8d;
+  font-size: 12px;
+}
+.blogText {
+  padding: 25px 0 20px 0;
+  border-top: dotted 1px #555;
+  border-bottom: dotted 1px #555;
+  margin-top: 10px;
+}
+.blogText div img {
+  width: 100%;
+}
+
+/* nav */
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+  color: #e57e16;
+  padding: 0 15px;
+  border-right: solid 1px #e57e16;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a {
+  color: #e57e16;
+}
+nav ul li a:hover {
+  color: #f8b500;
+}
