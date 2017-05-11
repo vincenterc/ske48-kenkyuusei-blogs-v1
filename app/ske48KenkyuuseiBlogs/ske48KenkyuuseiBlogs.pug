@@ -4,6 +4,8 @@ block append styles
   link(rel='stylesheet', href='/css/blogs.css')
 
 block blog-main-content
+  .blog-main-header
+    h4 HOME
   .blog-menberList
     .blog-memberList-content
       .memberList
@@ -15,7 +17,7 @@ block blog-main-content
               li
                 .member
                   a(href='/ske48_kenkyuusei_blogs/'+writer.writer)
-                    | #{writer.jpnName} <span>#{writer.engName}</span>			
+                    | #{writer.jpnName} <span>#{writer.engName}</span>
 
       .memberList
         .memberList-title
@@ -26,4 +28,4 @@ block blog-main-content
               li
                 .member
                   a(href='/ske48_kenkyuusei_blogs/'+writer.writer)
-                    | #{writer.jpnName} <span>#{writer.engName}</span>					
+                    | #{writer.jpnName} <span>#{writer.engName}</span>
