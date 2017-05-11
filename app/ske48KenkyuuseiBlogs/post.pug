@@ -4,6 +4,8 @@ block append styles
   link(rel='stylesheet', href='/css/post.css')
 
 block blog-main-content
+  .blog-main-header
+    h4 POST
   .blog-post
     .blog-post-content
       .post-content !{postContent}
@@ -22,5 +24,5 @@ block blog-main-content
       //-
         li
           a(href='#')
-            | Next Blog 
+            | Next Blog
             span(aria-label='BLACK RIGHT-POINTING POINTER') ►

@@ -4,6 +4,8 @@ block append styles
   link(rel='stylesheet', href='/css/writer.css')
 
 block blog-main-content
+  .blog-main-header
+    h4 WRITER
   .blog-postList
     .blog-postList-content
       ul
@@ -11,7 +13,7 @@ block blog-main-content
           li
             .blog_title
               a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+post.id)
-                | #{post.title} 					
+                | #{post.title}
                 time(datetime='YYYY-MM-DD') #{post.date}
 
   nav
