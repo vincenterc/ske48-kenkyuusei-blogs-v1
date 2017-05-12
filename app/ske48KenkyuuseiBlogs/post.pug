@@ -13,14 +13,16 @@ block blog-main-content
   nav
     ul
       li
-        a(href='#')
-          span(aria-label='BLACK LEFT-POINTING POINTER') ◄
-          |  Previous Blog
+        if nextPostId
+          a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+nextPostId)
+            span(aria-label='BLACK LEFT-POINTING POINTER') ◄
+            |  Next Post
       li
         a(href='/ske48_kenkyuusei_blogs') Back to HOME
       li
         a(href='/ske48_kenkyuusei_blogs/'+postList.writer) Back to #{postList.name}
       li
-        a(href='#')
-          | Next Blog
-          span(aria-label='BLACK RIGHT-POINTING POINTER') ►
+        if previousPostId
+          a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+previousPostId)
+            | Previous Post
+            span(aria-label='BLACK RIGHT-POINTING POINTER') ►
