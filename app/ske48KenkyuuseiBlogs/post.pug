@@ -15,7 +15,7 @@ block blog-main-content
       li
         if nextPostId
           a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+nextPostId)
-            span(aria-label='BLACK LEFT-POINTING POINTER') ◄
+            span(aria-label='BLACK LEFT-POINTING POINTER') &#9668
             |  Next Post
       li
         a(href='/ske48_kenkyuusei_blogs') Back to HOME
@@ -25,4 +25,4 @@ block blog-main-content
         if previousPostId
           a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+previousPostId)
             | Previous Post
-            span(aria-label='BLACK RIGHT-POINTING POINTER') ►
+            span(aria-label='BLACK RIGHT-POINTING POINTER') &#9658
