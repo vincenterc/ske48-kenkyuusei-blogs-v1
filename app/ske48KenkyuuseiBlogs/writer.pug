@@ -9,7 +9,7 @@ block blog-main-content
   .blog-postList
     .blog-postList-content
       ul
-        each post in postList.posts
+        each post in posts
           li
             .blog_title
               a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+post.id)
@@ -17,6 +17,24 @@ block blog-main-content
                 time(datetime='YYYY-MM-DD') #{post.date}
 
   nav
+    ul
+      if page.currentPage > 2
+        li
+          a(href='?page=1')
+            span &#171
+      if page.currentPage != 1
+        li 
+          a(href='?page='+page.previousPage)
+            span &#8249
+      li Page #{page.currentPage}/#{page.numOfPages}
+      if page.currentPage != page.lastPage
+        li 
+          a(href='?page='+page.nextPage)
+            span &#8250
+      if page.currentPage < (page.lastPage - 1)
+        li 
+          a(href='?page='+page.lastPage)
+            span &#187
     ul
       li
         a(href='/ske48_kenkyuusei_blogs') Back to HOME
