@@ -12,8 +12,8 @@ block blog-main-content
 
   nav
     ul
-      li
-        if nextPostId
+      if nextPostId
+        li        
           a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+nextPostId)
             span(aria-label='BLACK LEFT-POINTING POINTER') &#9668
             |  Next Post
@@ -21,8 +21,8 @@ block blog-main-content
         a(href='/ske48_kenkyuusei_blogs') Back to HOME
       li
         a(href='/ske48_kenkyuusei_blogs/'+postList.writer) Back to #{postList.name}
-      li
-        if previousPostId
+      if previousPostId  
+        li
           a(href='/ske48_kenkyuusei_blogs/'+postList.writer+'/'+previousPostId)
             | Previous Post
             span(aria-label='BLACK RIGHT-POINTING POINTER') &#9658
