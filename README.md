@@ -1,5 +1,5 @@
 # ske48-kenkyuusei-blogs
 
-The source code of the website: [SKE48 Kenkyuusei BLogs][].
+The source code of the website: [SKE48 Kenkyuusei BLogs][]. (koa framework with pug template)
 
 [SKE48 Kenkyuusei BLogs]: https://vincenter01.herokuapp.com/ske48_kenkyuusei_blogs
